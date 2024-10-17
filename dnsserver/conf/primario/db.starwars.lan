@@ -1,6 +1,6 @@
 $TTL 86400
 @   IN  SOA darthvader.starwars.lan. root.starwars.lan. (
-            2024010101  ; Serial
+            2024010103  ; Serial
             3600        ; Refresh
             1800        ; Retry
             604800      ; Expire
@@ -8,6 +8,7 @@ $TTL 86400
 
 ; Registros de recursos
 @   IN  NS  darthvader.starwars.lan.
+@   IN  NS  darthsidious.starwars.lan.
 
 ; Registro A para el dominio raíz
 @   IN  A   192.168.20.10  ; Asignar la dirección IP del dominio raíz
@@ -16,7 +17,7 @@ darthvader    IN  A   192.168.20.10
 skywalker     IN  A   192.168.20.101
 skywalker     IN  A   192.168.20.111
 luke          IN  A   192.168.20.22
-darthsidious  IN  A   192.168.20.11
+darthsidious  IN  A   192.168.20.12
 yoda          IN  A   192.168.20.24
 yoda          IN  A   192.168.20.25
 c3p0          IN  A   192.168.20.26
