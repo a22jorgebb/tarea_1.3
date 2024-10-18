@@ -2,6 +2,8 @@
 // Do any local configuration here
 //
 
+// Me falta la otra llave aquí
+
 zone "starwars.lan" {
     type master;
     file "/etc/bind/db.starwars.lan";

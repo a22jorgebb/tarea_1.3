@@ -15,6 +15,7 @@ $TTL 86400
 
 darthvader    IN  A   192.168.20.10
 skywalker     IN  A   192.168.20.101
+Chewbacca     IN  A   192.168.0.28
 skywalker     IN  A   192.168.20.111
 luke          IN  A   192.168.20.22
 darthsidious  IN  A   192.168.20.12

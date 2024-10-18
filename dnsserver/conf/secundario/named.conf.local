@@ -9,6 +9,10 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+// server 192.168.20.10 { // indicar o enderezo IP do servidor primario
+//    KEYS { chavejorge }
+// }
+
 zone "starwars.lan" {
     type slave;
     file "db.starwars.lan";
