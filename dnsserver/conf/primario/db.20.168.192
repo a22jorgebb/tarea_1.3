@@ -1,6 +1,6 @@
 $TTL 86400
 @   IN  SOA darthvader.starwars.lan. root.starwars.lan. (
-            2024010101  ; Serial
+            2024010102  ; Serial
             3600        ; Refresh
             1800        ; Retry
             604800      ; Expire
@@ -14,5 +14,6 @@ $TTL 86400
 24   IN  PTR yoda.starwars.lan.
 25   IN  PTR yoda.starwars.lan.
 26   IN  PTR c3p0.starwars.lan.
+28   IN  PTR chewbacca.starwars.lan.  ; Registro PTR para Chewbacca
 101  IN  PTR skywalker.starwars.lan.
 111  IN  PTR skywalker.starwars.lan.

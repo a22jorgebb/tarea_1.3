@@ -1,6 +1,6 @@
 $TTL 86400
 @   IN  SOA darthvader.starwars.lan. root.starwars.lan. (
-            2024010103  ; Serial
+            2024010104  ; Serial
             3600        ; Refresh
             1800        ; Retry
             604800      ; Expire
@@ -15,7 +15,7 @@ $TTL 86400
 
 darthvader    IN  A   192.168.20.10
 skywalker     IN  A   192.168.20.101
-Chewbacca     IN  A   192.168.0.28
+chewbacca     IN  A   192.168.20.28
 skywalker     IN  A   192.168.20.111
 luke          IN  A   192.168.20.22
 darthsidious  IN  A   192.168.20.12

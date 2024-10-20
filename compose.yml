@@ -18,7 +18,7 @@ services:
     hostname: darthsidious
     networks:
       rededns:
-          ipv4_address: 192.168.20.12 # en regs tiene la .11 eso lo vi en encerado
+          ipv4_address: 192.168.20.12
     volumes:
       - ./dnsserver/conf/primario/named.conf.options:/etc/bind/named.conf.options
       - ./dnsserver/conf/secundario/named.conf.local:/etc/bind/named.conf.local
